@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!--------------------------- NavBar --------------------------------->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <!---------------------------  Contact Me --------------------------------->
+ <section class="p-3" id="contactme">
+    <div class="container">
+      <h2 class="text-center">Contact Me</h2>
+      <div class="row ">
+        </Script>
+        <div class="col-md-12 p-4 ">
+          <form id="form"
+            action="https://script.google.com/macros/s/AKfycbxs1_B5RI1tRbn3Vs0Er8cf_rYi-JgiZNN4JOzXfNhVpVrCx_kwYlWJARdHyZJSsfDe/exec"
+            method="post" name="submit-to-google-sheet" class="border border-primary p-3">
+            <div class="form row">
+              <div class="form-group col-md-6">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" name="name" id="inputName" placeholder="Name"
+                  aria-describedby="invalidName">
+                <div id="invalidName" class="invalidName" style="color: red; visibility: hidden;">invalid name</div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPlace">Place</label>
+                <input type="text" class="form-control" name="place" id="inputPlace" placeholder="Place"
+                  aria-describedby="invalidPlace">
+                <div id="invalidPlace" class="invalidPlace" style="color: red; visibility: hidden;">invalid place</div>
+              </div>
+            </div>
+            <div class="form row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email"
+                  aria-describedby="invalidEmail">
+                <div id="invalidEmail" class="invalidEmail" style="color: red; visibility: hidden;">invalid email</div>
+
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputMobile">Mobile</label>
+                <input type="text" class="form-control" name="mobile" id="inputMobile" placeholder="Mobile"
+                  aria-describedby="invalidMobile">
+                <div id="invalidMobile" class="invalidMobile" style="color: red; visibility: hidden;">invalid number
+                </div>
+
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Message">Message</label>
+              <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Type your message here"
+                id="inputMessage" aria-describedby="invalidMessage"></textarea>
+              <div id="invalidMessage" class="invalidMessage" style="color: red; visibility: hidden;">invalid message
+              </div>
+
+            </div>
+
+            <div class="form row pt-3 ">
+              <div class="form-group col-md-6 ">
+                <button class="btn btn-primary form-control m-1" type="submit" value="submit">Submit</button>
+              </div>
+              <div class="form-group col-md-6 ">
+                <button class="btn btn-danger form-control m-1" type="reset" value="reset">Reset</button>
+              </div>
+
+            </div>
+        </div>
+
+
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="bg-light p-3  ">
+    <div class="container footer">
+      <div class="row align-item-center justify-content-center">
+        <div class="col-md-4 col-lg-4 col-12">
+          <h5>Phone</h5>
+          <p>+919567977356</p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12">
+          <h5>Email</h5>
+          <p><a href="mailto:Thasleem.1tk@gmail.com" class="text-secondary"
+              style="text-decoration:none;">Thasleem.1tk@gmail.com</a></p>
+        </div>
+        <div class="col-md-4 col-lg-4 col-12">
+          <h5>&copy;2023 By Thasleem.</h5>
+          <p>Proudly created myself </p>
+        </div>
+      </div>
+    </div>
+  </footer>
